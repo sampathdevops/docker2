@@ -1,0 +1,8 @@
+FROM ubuntu:19.04
+
+MAINTAINER sampathdevops566@gmail.com
+COPY index.html /usr/share/nginx/html/
+COPY scorekeeper.js /usr/share/nginx/html/
+COPY style.css /usr/share/nginx/html/
+RUN apt-get updste
+RUN apt-get install nano -y
